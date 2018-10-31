@@ -1,11 +1,11 @@
 #include<iostream>
 using namespace std;
-int factorial(int n)
+int factor(int n)
 {
     if(n==1)
         return 1;
     else
-        return n*factorial(n-1);
+        return n*factor(n-1);
 }
 unsigned long long factorialLoop(int n)
 {
@@ -28,6 +28,6 @@ int main()
     int n;
     cout << "Enter a positive integer ";
     cin >> n;
-    cout << "Factorial of " << n << " = " << factorial(n);
+    cout << "Factorial of " << n << " = " << factor(n);
     return 0;
 }
