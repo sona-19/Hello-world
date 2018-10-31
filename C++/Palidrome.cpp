@@ -20,7 +20,7 @@ int main()
     cout << "Yes" << endl;
     }
     else{
-    cout << "No" << endl;
+    cout << "No not a pallindrome" << endl;
     }
     return 0;
 }
